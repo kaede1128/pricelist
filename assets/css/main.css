@@ -1,0 +1,144 @@
+/*Font Loded*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+
+html {
+  scroll-behavior: smooth;
+  transition: all .3s ease;
+}
+body{
+  background-image: url(../img/bg.jpg);
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-nav{
+  background: #34495e;
+
+}
+.pricing .pricing-table {
+  margin-top: 100px;
+}
+#Contact .pricing-table {
+  min-height: 75vh;
+}
+.btn-custom, .btn-custom:not([href]):not([tabindex]) {
+  color: #bdc3c7;
+  font-size: 18px;
+  border: 1px solid #bdc3c7;
+  transition: all .3s ease;
+}
+.btn-custom:hover, .btn-custom:focus, .btn-custom:active,
+.btn-custom:not([href]):not([tabindex]):hover {
+  color: #ffffff;
+  background-color: #FFFFFF33;
+  border: 1px solid #ffffff;
+}
+#pricing-table {
+  padding-top: 50px;
+}
+#pricing-table .pricing {
+  display: contents;
+  margin: 0;
+  padding: 0;
+  font-family: 'Robot', sans-serif;
+}
+#pricing-table .pricing .pricing-table {
+  padding-bottom: 30px;
+}
+#pricing-table .pricing .pricing-table .pricing-header {
+  position: relative;
+  background: #34495e;
+  padding: 22px 22px;
+  text-align: center;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+#pricing-table .pricing .pricing-table .pricing-header .pricing-title {
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+}
+#pricing-table .pricing .pricing-table .pricing-header .pricing-rate {
+  font-size: 67px;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+}
+#pricing-table .pricing .pricing-table .pricing-header .pricing-rate sup {
+  font-size: 14px;
+  position: relative;
+  top: -30px;
+  color: #bdc3c7;
+}
+#pricing-table .pricing .pricing-table .pricing-header .pricing-rate span,
+#pricing-table .pricing .pricing-table .pricing-header .pricing-subtitle {
+  font-size: 14px;
+  color: #bdc3c7;
+  text-transform: uppercase;
+}
+#pricing-table .pricing .pricing-list {
+  padding: 20px 0 40px 0;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+}
+#pricing-table .pricing .pricing-list ul {
+  padding: 0px;
+  display: table;
+  margin: 0px auto;
+}
+#pricing-table .pricing .pricing-list ul li {
+  list-style: none;
+  border-bottom: 1px solid #EAECEB;
+  color: #bdc3c7;
+  font-size: 16px;
+  line-height: 42px;
+}
+#pricing-table .pricing .pricing-list ul li:last-child {
+  border: none;
+}
+#pricing-table .pricing .pricing-list ul li i {
+  margin-right: 12px;
+  color: #bdc3c7;
+}
+#pricing-table .pricing .pricing-list ul li span {
+  color: #34495e;
+}
+
+.modal-dialog .hour-rate {
+  margin: 10px;
+  padding: 5px 0;
+  text-align: center;
+  background: #34495e33;
+  border-radius: 2px;;
+}
+
+.modal-dialog .hour-rate .modal-top-data-header {
+  border-bottom: 2px solid #FFF;
+  font-weight: 700;
+  color: #34495e;
+}
+.modal-dialog .modal-data-header, .modal-dialog .modal-top-data-header {
+  margin: 10px 10px 5px 10px;
+}
+.modal-dialog .modal-data, .modal-dialog .modal-top-data {
+  margin: 5px 10px 10px 10px;
+}
+.modal-dialog .modal-data-header {
+  border-bottom: 2px solid #EAECEB;
+  font-weight: 700;
+  color: #34495e;
+}
+.modal-dialog .modal-data div.col:nth-child(6n+6),
+.modal-dialog .modal-data div.col:nth-child(6n+5),
+.modal-dialog .modal-data div.col:nth-child(6n+7) { 
+  background-color: #EAECEB55;
+}
